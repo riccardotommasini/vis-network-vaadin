@@ -187,7 +187,7 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty.version}</version>
                 <configuration>
-                    <scanIntervalSeconds>3</scanIntervalSeconds>
+<!--                    <scanIntervalSeconds>3</scanIntervalSeconds>-->
                     <!-- Use test scope because the UI/demo classes are in
                             the test package. -->
                     <useTestScope>true</useTestScope>
@@ -277,10 +277,11 @@
                 <vaadin.productionMode>true</vaadin.productionMode>
             </properties>
             <dependencies>
+                <!-- https://mvnrepository.com/artifact/com.vaadin/flow-server-production-mode -->
                 <dependency>
                     <groupId>com.vaadin</groupId>
                     <artifactId>flow-server-production-mode</artifactId>
-                    <version>24.3.3</version>
+                    <version>24.3.7</version>
                 </dependency>
             </dependencies>
 
@@ -310,7 +311,7 @@
                         <artifactId>jetty-maven-plugin</artifactId>
                         <version>${jetty.version}</version>
                         <configuration>
-                            <scanIntervalSeconds>0</scanIntervalSeconds>
+<!--                            <scanIntervalSeconds>0</scanIntervalSeconds>-->
                             <supportedPackagings>
                                 <supportedPackaging>jar</supportedPackaging>
                             </supportedPackagings>

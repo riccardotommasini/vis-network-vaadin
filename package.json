@@ -78,10 +78,8 @@
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
     "lit": "3.1.0",
-    "moment": "2.29.1",
     "proj4": "2.9.2",
-    "vis-network": "9.0.5",
-    "vis-timeline": "7.4.9"
+    "vis-network": "9.0.5"
   },
   "devDependencies": {
     "@rollup/plugin-replace": "5.0.4",
@@ -180,10 +178,8 @@
       "construct-style-sheets-polyfill": "3.1.0",
       "date-fns": "2.29.3",
       "lit": "3.1.0",
-      "moment": "2.29.1",
       "proj4": "2.9.2",
-      "vis-network": "9.0.5",
-      "vis-timeline": "7.4.9"
+      "vis-network": "9.0.5"
     },
     "devDependencies": {
       "@rollup/plugin-replace": "5.0.4",
@@ -203,7 +199,7 @@
       "workbox-core": "7.0.0",
       "workbox-precaching": "7.0.0"
     },
-    "hash": "fe85297a1c14f68e09f6b53011f41cbde35afb3e3f84ec210b651855069805c3"
+    "hash": "2e232b8e308d0042310e52fee4037bfe72986345814d8eab11a28b32f57f61e7"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -282,9 +278,7 @@
     "proj4": "$proj4",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "date-fns": "$date-fns",
-    "@f0rce/lit-ace": "$@f0rce/lit-ace",
     "@vaadin-component-factory/vcf-popup": "$@vaadin-component-factory/vcf-popup",
-    "vis-timeline": "$vis-timeline",
-    "moment": "$moment"
+    "@f0rce/lit-ace": "$@f0rce/lit-ace"
   }
 }
